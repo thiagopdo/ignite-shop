@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ignite Shop
+
+## Project Description
+
+Ignite Shop is an e-commerce application built with React. This project is part of the Ignite course by Rocketseat, designed to teach advanced concepts in React development.
+
+## Features
+
+- **Product Listing:** Displays a list of products fetched from an API.
+- **Product Details:** Shows detailed information about a selected product.
+- **Shopping Cart:** Allows users to add products to a cart and manage their selections.
+- **Checkout Process:** Provides a seamless checkout experience for users.
+- **Responsive Design:** Ensures the application works well on both desktop and mobile devices.
+
+## Technologies Used
+
+- **React:** A JavaScript library for building user interfaces.
+- **Styled Components:** For styling the application.
+- **Axios:** For making HTTP requests.
+- **React Router:** For handling navigation within the application.
+- **Context API:** For state management.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy of the project up and running, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
+### Prerequisites
+
+- Node.js installed on your machine.
+- npm or yarn as the package manager.
+
+### Installation
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/your-username/ignite-shop.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+cd ignite-shop
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+3. Install dependencies:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+npm install
+```
 
-## Learn More
+or
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+yarn install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Running the Application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To start the development server, run:
 
-## Deploy on Vercel
+```sh
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+or
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```sh
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

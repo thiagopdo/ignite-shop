@@ -2,6 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
 
-module.exports = nextConfig
+  images: {
+    domains: ["files.stripe.com"],
+  },
+  transpilePackages: ["lucide-react"], // add this
+};
+
+module.exports = nextConfig;
